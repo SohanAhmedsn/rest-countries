@@ -29,10 +29,12 @@ const getCountryHTML = country =>{
     <div class="country">
         <h2>${country.name}</h2>
         <h4>${country.capital}</h4>
-        <h4>${country.timezones}</h4>
-        <h4>${country.capital}</h4>
         <img src="${country.flag}">
     </div>
     `
 }
 loadCountries();
+
+
+{/* <h4>${country.timezones}</h4> */}
+{/* <h4>${country.capital}</h4> */}
